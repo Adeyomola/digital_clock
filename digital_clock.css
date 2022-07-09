@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Orbitron&family=Rubik:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --small-font: 5rem;
+}
+
+:root {
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    font-size: 10px;
+
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+
+#clockDiv,
+#dayDiv {
+    width: 80%;
+    max-width: 90%;
+    margin: 2rem auto;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 20rem;
+    color: #8bbfff;
+    transform: scale(1.25);
+    text-shadow: 1px 1px 15px #8bbfff;
+}
+
+#dayDiv {
+    font-size: 8rem;
+    font-family: 'Rubik';
+    text-shadow: 1px 1px 5px #8bbfff;
+}
+
+
+@media (min-width: 320px) and (max-width: 359px) {
+
+    #clockDiv {
+        font-size: 4.2rem;
+    }
+
+    #dayDiv {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 1024px) {
+
+    #clockDiv {
+        font-size: 5.5rem;
+    }
+
+    #dayDiv {
+        font-size: 3rem;
+    }
+}
